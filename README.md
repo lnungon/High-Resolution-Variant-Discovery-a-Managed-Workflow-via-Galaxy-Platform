@@ -24,11 +24,11 @@ SEquences were downloaded from [The International Genome Sample Resource](https:
 The following tree describes the organization of the data and results within this managed workflow:
 
 * **`data/`**: contains the raw sequencing data.
-    * `sampledata_1.fq` & `sampledata_2.fq`: Paired-end raw reads in FASTQ format (managed via **Git LFS**).
+    * [Sample 1 (FQ)](data/sampledata_1.fq) | [Sample 2 (FQ)](data/sampledata_2.fq): Paired-end raw reads in FASTQ format (Stored with Git LFS).
 * **`results/`**: core outputs of the variant discovery pipeline.
-    * `alignment.bam`: Binary Alignment Map (BAM) showing reads mapped to the reference genome.
-    * `variants.vcf`: Final Variant Call Format (VCF) file containing identified genetic variants.
-    * `snpEff_report.html`: Functional annotation and effect prediction report.
+    * [Alignment Map (BAM)](results/alignment.bam): Binary Alignment Map (BAM) showing reads mapped to the reference genome (Stored with Git LFS).
+    * [VCF File](results/variants.vcf): Final Variant Call Format (VCF) file containing identified genetic variants (Stored with Git LFS).
+    * [SnpEff HTML Report](results/snpEff_report.html)`: Functional annotation and effect prediction report.
 * ** `executive_summary.pdf` : Detailed workflow with all the necessary information to implement this process. 
 * **`config/`**:
     * `.gitattributes`: Configuration for Git Large File Storage (LFS) tracking.
