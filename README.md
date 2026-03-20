@@ -13,7 +13,7 @@ This study utilizes the Galaxy platform to implement an accessible **proof of Co
 
 <img width="793" height="392" alt="JBrowse visualization" src="https://github.com/user-attachments/assets/a2c1fbb3-ad96-41cd-96d1-ad0501930e13" />
 
-> JBrowse visualization of a specific genomic region. The integrated view displays the reference sequence and reads alignment alongside the identified variants, allowing for a high-resolution spatial inspection of the genetic landscape.
+> JBrowse visualization of a specific genomic region. The integrated view displays the reference sequence and reads alignment with the identified variants, allowing for a spatial inspection of the genetic environment.
 
 ## Analysis overview
 Data processing included **quality control** of reads,  **read alignment via BWA-MEM**, **PCR duplicate removal**, and **variant calling using FreeBayes**. Functional annotation performed with **SnpEff identified a total of 22,526 variants**. Statistical analysis revealed a Missense/Silent ratio of 0.881.
