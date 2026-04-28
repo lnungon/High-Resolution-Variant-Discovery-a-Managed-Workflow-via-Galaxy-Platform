@@ -34,6 +34,6 @@ The following tree describes the organization of the data and results within thi
     * [Alignment Map (BAM)](results/alignment.bam): Binary Alignment Map (BAM) showing reads mapped to the reference genome (Stored with Git LFS).
     * [VCF File](results/variants.vcf): Final Variant Call Format (VCF) file containing identified genetic variants (Stored with Git LFS).
     * [SnpEff HTML Report](results/snpEff_report.html)`: Functional annotation and effect prediction report.
-* **`executive_summary.pdf`** : Detailed workflow with all the necessary information to implement this process. 
+* ** [Executive summary] (https://github.com/lnungon/High-Resolution-Variant-Discovery-a-Managed-Workflow-via-Galaxy-Platform/blob/main/executive_summary.pdf)** : Detailed workflow with all the necessary information to implement this process. 
 * **`config/`**:
     * `.gitattributes`: Configuration for Git Large File Storage (LFS) tracking.
